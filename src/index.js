@@ -44,7 +44,10 @@ const PROMPT = "What's the weather like in Prague and in Kosice?";
       );
 
       let result = JSON.stringify(actionResponse.data);
-      //console.log(`SUPERFACE RESPONSE: ${result}`);
+
+      // Log the response to demonstrate the result format from Superface Hub API
+      console.log(`SUPERFACE RESPONSE: ${result}`);
+
       return result;
     } catch (error) {
       console.error(`PERFORM ERROR: ${error.response}`);
