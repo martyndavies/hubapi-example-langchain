@@ -38,7 +38,7 @@ const PROMPT = "What's the weather like in Prague and in Kosice?";
           headers: {
             Authorization: `Bearer ${process.env.SUPERFACE_AUTH_TOKEN}`,
             "Content-Type": "application/json",
-            "x-superface-user-id": "sflangchainexample|martyndavies|08062024",
+            "x-superface-user-id": "sflangchainexample|1234",
           },
         }
       );
